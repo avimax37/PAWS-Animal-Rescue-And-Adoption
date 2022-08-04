@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 3px;
+    background-color: #5CE1E6;
+    }
+
+nav {
+ background-color: #5CE1E6;
+  
+}
+
+nav a {
+  float: left;
+  color: #411AD8;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+nav a:hover {
+  background-color: #411AD8;
+  color: #5CE1E6;
+}
+
+nav .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+  }
+
+#home .welcome{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px; 
+  background: url(welcomepage.jpg);
+
+}
+
+#home .welcome .font{
+    color: #411AD8;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 70px;
+    padding-top: 60px;
+    margin-left: 40px;
+    width: 800px;
+    padding-bottom: 80px;
+    line-height: 1.16;
+}
+/*
+#home .welcome a{
+  background-color: #5CE1E6;
+  padding: 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: ease 2s;
+}
+
+
+#home .welcome .btn{
+  /*padding-top: 280px;
+  padding-left: 300px
+  
+}
+
+#home .welcome a:hover{
+  background-color: #411AD8;
+  box-shadow: 0px 0px 13px  #5CE1E6;
+  text-shadow: 0px 0px 7px  black;
+}
+*/
+#home .welcome span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 5000px;
+  padding-left: 300px
+}
+#home .welcome span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+#home .welcome .signinbtn a:before,
+#home .welcome .signinbtn a:after{
+  position: absolute;
+  content: "Sign In";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #411AD8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#home .welcome .signinbtn a:before{
+  color: #fff;
+  background: #411AD8;
+  transform: rotateY(0deg) translateZ(25px);
+}
+#home .welcome .signinbtn a:after{
+  color: #411AD8;
+  transform: rotateX(90deg) translateZ(25px);
+}
+#home .welcome .signinbtn a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+
+/*Rescue*/
+.back{
+  background-color: #5CE1E6;
+  margin-bottom: 20px;
+}
+
+.back button{
+  background: transparent;
+  padding: 15px;
+  color: #411AD8;
+  border: none;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.back button:hover{
+  background-color: #411AD8;
+  color: #5CE1E6;
+  cursor: pointer;
+}
+
+input[type=text], input[type=email], input[type=postal], input[type=file], textarea, select {
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  width: 200px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:#5CE1E6 ;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+input[type=submit]:hover {
+  background-color: #411AD8;
+  color: ghostwhite;
+  font-weight: 490;
+}
+
+#rescue .container {
+  background-color: #265589;
+  padding: 20px;
+  margin-top: 20px;
+  color: ghostwhite;
+}
+input[type="file"]{
+  position: relative;
+  align-items: center;
+  display: flex;
+  border: 1px solid rgba(0,0,0,0.3);
+  height: 100%;
+  left: 0;
+  width: 30%;
+  opacity: 100;
+  margin-right: 8px;
+  margin: 4px;
+}
+input[type="file"]:hover{
+  cursor: pointer;
+  color: white;
+}
+
+#rescue .container .heading{
+  text-align: center;
+  color: white;
+}
+
+#rescue .container .heading1{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #411AD8;
+  text-align: left;
+  font-weight: 600;
+}
+
+#rescue .container .heading1 span{
+  border-left: 4px solid #411AD8;
+  height: 2px;
+  padding: 15px;
+}
+
+/*about*/
+.heading1{  
+  padding: 5px;
+  padding-left: 20px;
+  color: #411AD8;
+  text-align: left;
+}
+
+.heading1 span{
+  border-left: 6px solid #411AD8;
+  height: 20px;
+  padding: 15px;
+}
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.row{
+  padding: 25px;
+}
+
+.column{
+  padding: 15px;
+}
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #265589;
+  padding-bottom: 10px;
+
+}
+
+.card img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+/* Some left and right padding inside the container */
+.column .card .container {
+  padding: 0 16px;
+  background-color: #265589;
+  color: #5CE1E6;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button:hover {
+  background-color: white;
+  color: #265589;
+}
+
+#contact .container{
+  background-color: #265589;
+}
+
+ .conform{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+
+.conform > input[type=text], .conform > input[type=email], .conform > textarea{
+  border-radius: 0;
+  border: 2px solid black;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+#contact label{
+   font-size: 20px;
+   color: #5CE1E6;
+}
+
+.conform > input[type=submit]{
+  width: 400px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:#5CE1E6 ;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.conform > input[type=submit]:hover{
+   background-color: white;
+  color: #265589;
+}
+
+#contact .heading{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #411AD8;
+  text-align: left;
+  font-weight: 600;
+}
+
+.heading span{
+  border-left: 6px solid #411AD8;
+  height: 20px;
+  padding: 15px;
+}
+
+#contact .container .quote{
+  width: 300px;
+  font-size: 20px;
+  color: #5CE1E6;
+}
+
+
+footer {
+  padding:10px ;
+  color: black;
+}
+
+footer ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+}
+
+footer li {
+  padding: 4px;
+}
+
+footer ul a {
+  color: #333;
+  text-decoration:none;
+  opacity:0.9;
+}
+
+footer ul a:hover {
+  color: black;
+}
+
+footer .copyright {
+  margin-top:10px;
+  text-align:center;
+  font-size:16px;
+  color:#333;
+  opacity: 0.7;
+  margin-bottom:0;
+}
+
+.footer{
+  background-color: #cce6ff;
+}
+
+
+/*Social media*/
+.fa:hover {
+            opacity: 1;
+            
+            border-radius: 400px;
+            color: #265589;
+        }
+ 
+.fa-linkedin:hover{
+    background-color: white;
+}
+
+.fa-instagram:hover{
+  background-color: #F1CF6F;
+}
+
+.fa-twitter:hover{
+  background-color: #70BBE9;
+}
+
+        .fa-linkedin {
+            color: white;
+        }
+  
+        .fa-instagram {
+            color: white;
+        }
+  
+        .fa-twitter {
+            color: white;
+        }
+  
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            text-decoration: none;
+            margin: 10px;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .social{
+          display: flex;
+          flex-direction: row;
+          justify-content: safe center;
+        }
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: dimgray; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #5CE1E6; /* Add a dark-grey background on hover */
+}
