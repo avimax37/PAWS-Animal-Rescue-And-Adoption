@@ -15,4 +15,4 @@
 Avinaba Bera - [@IainSchneider](https://twitter.com/IainSchneider) - avimax37@gmail.com<br>
 
 Project Article: [https://blogger.com](https://uemkprojects2023.blogspot.com/2022/08/paws-website-for-animal-rescue-and.html)<br>
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/avimax37/PAWS-Animal-Rescue-And-Adoption](https://github.com/avimax37/PAWS-Animal-Rescue-And-Adoption)
