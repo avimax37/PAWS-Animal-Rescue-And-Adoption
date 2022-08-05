@@ -9,3 +9,10 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## Contact
+
+Avinaba Bera - [[@twitter_handle](https://twitter.com/twitter_handle) ](https://twitter.com/IainSchneider) - avimax37@gmail.com
+
+Project Article: [[https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)](https://uemkprojects2023.blogspot.com/2022/08/paws-website-for-animal-rescue-and.html)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
