@@ -12,7 +12,7 @@
 
 ## Contact
 
-Avinaba Bera - https://twitter.com/IainSchneider - avimax37@gmail.com<br>
+Avinaba Bera - [@IainSchneider](https://twitter.com/IainSchneider) - avimax37@gmail.com<br>
 
 Project Article: [[https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)](https://uemkprojects2023.blogspot.com/2022/08/paws-website-for-animal-rescue-and.html)
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
