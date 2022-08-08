@@ -1,0 +1,68 @@
+Roughly 6.5 Million animals enter shelters each year but only 3.2 Million are adopted. Approximately 85 Million families are pet owners. 28% of dogs and 31% of cats are adopted out of shelters each year. In 2020, people spent $99 Billion on their pets. In 2020, 32% fewer dogs and 23% fewer cats entered animal shelters decreased by 44%. Homeless animals outnumber homeless people by 5 to 1. Only 10% of dogs born will find a permanent home. Only 25-30% of dogs in shelters are pure-breeds. The rest are mostly mutts!
+
+Reasons people abandon pets
+
+Human housing issues
+Behavioral issues
+Aggression towards humans/animals
+Owner no longer has time for pets
+Age of the pet
+Owner's death of illness
+Birth of a child
+Animal grows too large
+
+About the project
+
+'PAWS' is a noble approach to save stray dogs, cats and other pets abandoned by their owners. Through this website, we aim to prevent and eliminate all cruelty to all animals whether arising through ignorance, neglect or deliberate cruelty. We promoted the sharing of information between NGS's which are currently working to enhance the lives of animals with the animals currently in danger. What we were working on is a website what is secure, fast, reliable and easily accessible.
+
+Aim of the project
+
+'PAWS' aims to connect the animals be it abandoned pets or animals suffering from human aggression with NGO's. We live in a large country where we have plenty of pets suffering and also plenty of NGO's at different parts of the country. So, PAWS wants to bring both of them together using our website. Our website is an easy-to-use platform which can be used by anyone above the age of 8 years. We hope to create a better life for all the animals out there.
+
+First, we need to log in to the website, create an account or simply log in through Google account. Then we need to attach the details in the rescue option. The same will be added to the database. Then we will mail all the information to the animal shelters in that area. Finally we will have an 'Adoption' part from where adoptions can be done.
+
+Project Stages
+
+Stage 1: Research on the topic of animal rescue related services across the web
+
+There are more or less 165 rescue units in India. Still over 5 lakh cases of human cruelty against innocent animals were reported just over the last decade in India.
+
+America has 5K animal shelters, 45K animal organizations and rescues over 81K animals ever year. Then also, one major reason of death of 27 lakh animals here is less than the number of adoptive homes.
+
+The lack of thoughts in our mind that we can help them is what's concerning. We have tried to propose a solution by our website.
+
+Stage 2: UI design and adding features
+
+We have created the landing page by adding a 'Sign up' page and to make it even easier, we have added 'Sign-in with Google' option using Google Sign-in API.
+
+After signing-up, a user needs to fill all the details such as Name, Email, Description, Address, Pin code, City etc.
+
+The details filled in the form by the user will be emailed to any nearby animal rescue team.
+
+Stage 3: Server connection
+
+We have used Xampp's built-in server Apache. We made a local host and developed environment by creating local 'sandbox' environment in which we can write, deploy and test our source codes.
+
+Apache Server is a modular, process-based web server that creates thread with each simultaneous connection. It supports a large number of features and provide everything from server-side programming language to authentication mechanism like Virtual Hosting.
+
+Stage 4: Database connection
+
+We have done our project through a database-driven approach because it delivers real time dynamic storage and it is also easy to maintain.
+
+Both the Sign-up and Sign-in pages as well as Details page are connected to the server. Everything filled in those pages will be stored in the database.
+
+Source Code: 'PAWS' - Animal Rescue and Adoption
+
+Scope of improvement
+
+We have designed this website with the help of HTML, CSS and JavaScript only which is very easy to understand and simple to work with. But what it lacks is more customizability and different frameworks. Because of which, our project lacks different design elements and user interface is not that much intuitive.
+
+We are not that experienced when it comes to handling real life projects and what's why our project suffers from different programming mistakes here and there. These mistakes are not at all deal breaking, but those could be improved with experience which will in turn, improve efficiency.
+
+Adaptability is also a great deal when it comes to websites and web applications. Our project lacks adaptability which should be fixed by different updates to the website.
+
+Our website is lacking all those factors which prevents it from being an ideal site. We are hoping to improve all these factors in the near future as we gather more information on what is to be done.
+
+Conclusion
+
+The project aims to build an user-friendly web application for pet lovers where they can get connected, share photos of abandoned helpless animals as they come across through which, a good treatment and a shelter can be searched for the poor animals. The future implementation of this project is that later a GPS guided location will be added to the website through which, the location of abandoned animals can be accessed easily. Other features like creative animal emojis and changes in the CSS code of the page to make the UI even better will also be implemented. We also have a plan to upgrade this website to a React application which would be very much crucial in web development.
